@@ -1,0 +1,7 @@
+#ssupPopupItem {
+  padding: 7px 10px;
+  background-color: green;
+  color: white;
+  position: fixed;
+  display: none;
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Extract Text",
+  "description": "Extension to highlight text",
+  "version": "1.0",
+  "action" : {
+    "default_popup" : "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["./fragmentGenerator.js", "./script.js"],
+      "css" : ["contentStyles.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
